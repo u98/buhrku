@@ -1,0 +1,14 @@
+<%- include('./includes/header'); %>
+<h3>how is online</h3>
+<div class="how-is-online">
+    <ul>
+        <% data.forEach((e) => { %>
+        <li>
+            <a href="//facebook.com/<%= e.uid %>"><%= e.name %></a>
+            <img src="<%= e.pic_square %>" alt="avatar"/>
+            <p><%= e.online_presence %></p>
+        <li>
+        <% }) %>
+    </ul>
+</div>
+<%- include('./includes/footer'); %>

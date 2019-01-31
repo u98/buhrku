@@ -1,0 +1,17 @@
+<%- include('./includes/header'); %>
+
+<h3>Notification</h3>
+
+<h4>Count: <%= data.length %></h4>
+
+<div class="notify">
+    <ul>
+        <% data.forEach(e => { %>
+            <li>
+                <%= e.title_text %>
+            </li>
+        <% }) %>
+    </ul>
+</div>
+
+<%- include('./includes/footer'); %>

@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.header > ul {
+    padding: 0;
+    list-style: none;
+}
+
+.header > ul > li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+.header > ul > li > a {
+    font-size: 24px;
+}
+.how-is-online > ul {
+    padding: 0;
+    list-style: none;
+}
+.how-is-online > ul > li > *{
+    display: inline;
+}
